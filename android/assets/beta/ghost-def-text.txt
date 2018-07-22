@@ -1,0 +1,17 @@
+Hey
+I'm Emil
+I guess you want to cross the forest. I can help you with that
+but I need your help before. I made a bet with my friends here
+It's about drinking capabilities... But we don't have beer here...
+Maybe can you achieve me some?
+
+->
+0,1
+
+1,2
+
+2,3
+
+3,4
+
+4,5

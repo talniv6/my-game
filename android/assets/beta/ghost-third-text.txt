@@ -1,0 +1,10 @@
+Ready to leave your body?
+Good luck. See you in another life time
+Whenever you want...
+
+->
+0,1
+yes
+
+0,2
+no

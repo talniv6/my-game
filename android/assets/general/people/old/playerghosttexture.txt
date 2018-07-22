@@ -1,0 +1,11 @@
+source: general/people/textures/playerGhost.png
+tilewidth: 32
+tileheight: 32
+walking left: 0,1
+walking right: 0,3
+walking down: 0,0
+walking up: 0,2
+standing left: 0,1
+standing right: 0,3
+standing down: 0,0
+standing up: 0,2

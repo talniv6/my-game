@@ -1,0 +1,11 @@
+source: general/people/textures/girl_rope.png
+tilewidth: 32
+tileheight: 32
+walking left: 1,0
+walking right: 1,0
+walking down: 1,0
+walking up: 1,0
+standing left: 1,0
+standing right: 1,0
+standing down: 0,0,0,1,0,2,1,0,1,1,1,2,2,0,2,1
+standing up: 1,0

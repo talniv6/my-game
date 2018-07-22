@@ -1,0 +1,47 @@
+Hey
+I'm Emil
+I guess you want to cross the forest. I can help you with that
+but I need your help before. I made a bet with my friends here
+It's about drinking capabilities... But we don't have beer here...
+Maybe can you achieve me some?
+Ohh! I see you have a beer! great, could you give me?
+Thanks!
+I will help you cross the forest now
+but the Spirit forest is not a place for leaving people
+it's only for spirits. So be ready to leave your body
+Do you agree?
+Good luck then... see you in another life time
+It's Ok... maybe another time...
+
+->
+0,1
+
+1,2
+
+2,3
+
+3,4
+
+4,5
+
+5,6
+
+6,7
+yes
+
+6,12
+no
+
+7,8
+
+8,9
+
+9,10
+
+10,11
+
+11,12
+yes
+
+11,13
+no

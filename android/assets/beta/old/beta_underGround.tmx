@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="30" height="17" tilewidth="32" tileheight="32" nextobjectid="140">
+ <tileset firstgid="1" name="rothens_tiles_2" tilewidth="32" tileheight="32" tilecount="28" columns="14">
+  <image source="rothens_tiles_2.png" width="448" height="64"/>
+  <tile id="0">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="31.75" height="32.25"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="שכבת משבצות 1" width="30" height="17">
+  <data encoding="csv">
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,1,
+1,1,1,1,1,6,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,1,1,1,1,1
+</data>
+ </layer>
+ <objectgroup name="collisions">
+  <object id="6" x="736" y="481.333" width="32" height="28"/>
+  <object id="9" x="577.333" y="416" width="316" height="33.3333"/>
+  <object id="10" x="513.333" y="449.333" width="29.3333" height="32"/>
+  <object id="11" x="512" y="384" width="29.3333" height="30.6667"/>
+  <object id="12" x="672" y="352" width="96" height="33.3333"/>
+  <object id="14" x="641.333" y="224" width="61.3333" height="32"/>
+  <object id="15" x="510.667" y="260.333" width="33.3333" height="26.6667"/>
+  <object id="17" x="509.333" y="190.667" width="32" height="33.3333"/>
+  <object id="18" x="544" y="128" width="34.6667" height="32"/>
+  <object id="19" x="417.333" y="190.667" width="32" height="30.6667"/>
+  <object id="20" x="416" y="258.667" width="30.6667" height="28"/>
+  <object id="21" x="477.333" y="158.667" width="32" height="32"/>
+  <object id="22" x="449.667" y="288" width="58.6667" height="32"/>
+  <object id="23" x="64" y="128" width="188" height="23"/>
+  <object id="24" x="672" y="97.3333" width="32" height="51.3333"/>
+  <object id="25" x="417.333" y="384" width="32" height="32"/>
+  <object id="26" x="416" y="449.333" width="32" height="32"/>
+  <object id="27" x="193.333" y="351.667" width="93.3333" height="33.3333"/>
+  <object id="28" x="258.667" y="223.333" width="60" height="32"/>
+  <object id="30" x="381.333" y="126.667" width="32" height="32"/>
+  <object id="31" x="706" y="126.667" width="188" height="21"/>
+  <object id="32" x="252.667" y="97" width="32" height="52.3333"/>
+  <object id="34" x="545.333" y="320" width="32" height="29.3333"/>
+  <object id="37" x="450.667" y="350.667" width="60" height="32"/>
+  <object id="38" x="576" y="224" width="32" height="29.3333"/>
+  <object id="39" x="350.667" y="225.333" width="32" height="29.3333"/>
+  <object id="40" x="449.333" y="97.3333" width="32" height="29.3333"/>
+  <object id="43" x="64" y="195.333" width="32" height="89.3334"/>
+  <object id="44" x="130.667" y="195.333" width="29.3333" height="58.6667"/>
+  <object id="46" x="195" y="194.333" width="29.3333" height="60"/>
+  <object id="47" x="320" y="191.667" width="29.3333" height="30.6667"/>
+  <object id="51" x="226.667" y="257.333" width="29.3333" height="61.3333"/>
+  <object id="54" x="37.3333" y="288" width="186.667" height="30.6667"/>
+  <object id="55" x="97.3333" y="256" width="32" height="29.3333"/>
+  <object id="56" x="64" y="416.667" width="320" height="30.6666"/>
+  <object id="57" x="864" y="197.333" width="32" height="90.6667"/>
+  <object id="58" x="318.667" y="386.667" width="64" height="28"/>
+  <object id="60" x="63.3333" y="354" width="30.6667" height="28"/>
+  <object id="62" x="322.667" y="289.333" width="28" height="60"/>
+  <object id="63" x="352" y="288" width="64" height="29.3333"/>
+  <object id="64" x="382.667" y="320" width="32" height="30.6667"/>
+  <object id="66" x="544" y="292" width="64" height="29.3333"/>
+  <object id="67" x="610" y="291.333" width="28" height="60"/>
+  <object id="68" x="770.667" y="322" width="32" height="94.6667"/>
+  <object id="69" x="580.667" y="387.333" width="56" height="33.3333"/>
+  <object id="70" x="863.333" y="354.667" width="30.6667" height="28"/>
+  <object id="71" x="735.333" y="286.667" width="186.667" height="30.6667"/>
+  <object id="72" x="705.333" y="257.333" width="29.3333" height="61.3333"/>
+  <object id="74" x="609.667" y="195" width="32" height="29.3333"/>
+  <object id="76" x="736" y="195.333" width="29.3333" height="60"/>
+  <object id="77" x="164" y="324" width="29.3333" height="93.3334"/>
+  <object id="78" x="829.667" y="257.333" width="32" height="29.3333"/>
+  <object id="79" x="800" y="194" width="29.3333" height="60"/>
+  <object id="80" x="802" y="355.333" width="30.6667" height="28"/>
+  <object id="81" x="130" y="355.333" width="30.6667" height="28"/>
+  <object id="82" x="450" y="480" width="61" height="31"/>
+  <object id="128" x="192" y="480.667" width="32" height="28"/>
+ </objectgroup>
+ <objectgroup name="events">
+  <object id="104" name="exit_to_compass_2" x="768" y="535" width="34" height="9"/>
+  <object id="105" name="exit_to_compass_1" x="158" y="536" width="38" height="7"/>
+  <object id="117" name="back" x="712.834" y="101.667" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="118" name="back" x="264.834" y="264.334" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="119" name="back" x="424.167" y="164.667" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="120" name="back" x="745.167" y="390.666" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="121" name="back" x="203.5" y="391" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="122" name="back" x="234.167" y="103" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="123" name="back" x="204.834" y="327" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="124" name="back" x="872.167" y="388.666" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="125" name="back" x="747.167" y="325.666" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="126" name="back" x="75.8331" y="392.334" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="127" name="back" x="683.167" y="262.666" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="129" name="back" x="37" y="486" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="130" name="back" x="423" y="294" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="131" name="back" x="517" y="297" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="132" name="back" x="391" y="485" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="134" name="back" x="549" y="494" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="135" name="back" x="902" y="485" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="136" name="back" x="809" y="327" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="138" name="back" x="137" y="329" width="18" height="18">
+   <ellipse/>
+  </object>
+  <object id="139" name="back" x="520" y="134" width="18" height="18">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup name="characters"/>
+</map>

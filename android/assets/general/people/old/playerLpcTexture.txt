@@ -1,0 +1,11 @@
+source: general/people/textures/lpc-sprite.png
+tilewidth: 48
+tileheight: 64
+walking left: 3,0,3,1,3,2,3,1
+walking right: 1,0,1,1,1,2,1,1
+walking down: 2,0,2,1,2,2,2,1
+walking up: 0,0,0,1,0,2,0,1
+standing left: 3,1
+standing right: 1,1
+standing down: 2,1
+standing up: 0,1

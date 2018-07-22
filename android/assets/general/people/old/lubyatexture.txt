@@ -1,0 +1,11 @@
+source: general/people/textures/Lyuba-000.png
+tilewidth: 24
+tileheight: 32
+walking left: 0,0
+walking right: 0,0
+walking down: 0,0
+walking up: 0,0
+standing left: 1,1
+standing right: 2,1
+standing down: 2,1
+standing up: 0,0

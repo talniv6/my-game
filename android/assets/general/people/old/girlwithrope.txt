@@ -1,0 +1,10 @@
+texture: general/people/girlWithRopeTexture.txt
+width: 32
+height: 32
+collision shape: rectangle
+0,0,24,24
+dxdy: 6,5
+event shape: rectangle
+0,0,32,32
+dxdy: 3,3
+speed: 2

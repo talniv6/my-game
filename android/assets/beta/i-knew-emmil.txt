@@ -1,0 +1,14 @@
+I knew Emil when we were childs...
+It was long time ago...
+One day he went to the Spirits forest and never came back
+Sometimes, when I walk close to the trees,
+I imagine I hear his laught...
+
+->
+0,1
+
+1,2
+
+2,3
+
+3,4

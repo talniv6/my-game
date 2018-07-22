@@ -1,0 +1,10 @@
+texture: general/people/blondgirltexture.txt
+width: 24
+height: 24
+collision shape: rectangle
+0,0,16,16
+dxdy: 4,4
+event shape: rectangle
+0,0,21,20
+dxdy: 3,3
+speed: 2

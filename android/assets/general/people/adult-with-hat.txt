@@ -1,0 +1,10 @@
+texture: general/people/adult-with-hat-texture.txt
+width: 24
+height: 32
+collision shape: rectangle
+0,0,13,14
+dxdy: 6,0
+event shape: rectangle
+0,0,24,28
+dxdy: 1,-4
+speed: 2

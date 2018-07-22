@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.2" orientation="orthogonal" renderorder="right-down" width="12" height="12" tilewidth="32" tileheight="32" nextobjectid="33">
+ <tileset firstgid="1" name="inside" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="100" columns="10">
+  <image source="../general/LPC/inside.png" width="340" height="340"/>
+ </tileset>
+ <tileset firstgid="101" name="Inside_A4" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="240" columns="16">
+  <image source="../general/LPC/Inside_A4.png" width="544" height="512"/>
+ </tileset>
+ <tileset firstgid="341" name="Inside_B" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="256" columns="16">
+  <image source="../general/LPC/Inside_B.png" width="544" height="544"/>
+ </tileset>
+ <tileset firstgid="597" name="starirs" tilewidth="32" tileheight="32" spacing="2" margin="1" tilecount="1" columns="1">
+  <image source="../general/LPC/starirs.png" width="36" height="36"/>
+  <tile id="0">
+   <objectgroup draworder="index" visible="0"/>
+  </tile>
+ </tileset>
+ <layer name="שכבת משבצות 1" width="12" height="12">
+  <data encoding="csv">
+1,2,2,2,2,2,2,2,2,2,2,3,
+11,12,12,12,12,12,12,12,12,12,12,13,
+21,22,22,22,22,22,22,22,22,22,22,23,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+41,41,41,41,41,41,41,41,41,41,41,41,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="שכבת משבצות 2" width="12" height="12">
+  <data encoding="csv">
+44,0,51,0,0,0,51,0,0,0,51,45,
+43,0,61,0,342,0,61,0,342,0,61,4,
+43,0,71,0,358,0,71,0,358,0,71,4,
+5,0,0,0,0,0,0,0,0,0,0,42,
+43,503,504,0,0,0,0,0,514,499,516,42,
+43,519,520,0,0,0,0,0,0,0,0,42,
+43,0,0,0,0,0,0,0,0,0,0,42,
+43,0,0,0,0,0,0,0,0,0,0,42,
+43,0,0,0,0,0,0,0,0,0,0,42,
+43,0,0,0,0,0,0,0,0,0,0,42,
+43,395,0,0,0,0,0,0,0,0,395,42,
+31,32,33,31,32,33,0,31,32,31,32,33
+</data>
+ </layer>
+ <layer name="hidden passage" width="12" height="12" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,597,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="characters"/>
+ <layer name="שכבת משבצות 3" width="12" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,487,488,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,379,0,0,0,0,0,0,0,0,379,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup name="events">
+  <object id="3" name="compass" x="189" y="122" width="11" height="9"/>
+  <object id="23" name="exit" x="195" y="353" width="26" height="11"/>
+  <object id="27" name="back_from_underground" x="129" y="336.5" width="7" height="13"/>
+  <object id="28" name="secretPassage" x="98" y="334.5" width="19" height="16"/>
+  <object id="29" x="320" y="303.5" width="33" height="37"/>
+  <object id="30" x="33" y="304.5" width="32" height="35"/>
+  <object id="31" name="spawn" x="201.5" y="320" width="17" height="17"/>
+  <object id="32" name="person" x="324" y="200" width="11" height="10"/>
+ </objectgroup>
+ <objectgroup name="collisions" opacity="0.97">
+  <object id="6" x="41" y="120" width="46" height="71"/>
+  <object id="7" x="260" y="128" width="6" height="30"/>
+  <object id="8" x="263" y="139" width="20" height="21"/>
+  <object id="9" x="325" y="138" width="22" height="21"/>
+  <object id="11" x="338" y="128" width="10" height="27"/>
+  <object id="12" x="288" y="129" width="31" height="21">
+   <ellipse/>
+  </object>
+  <object id="15" x="292" y="150" width="23" height="8"/>
+  <object id="16" x="0" y="75" width="376" height="20"/>
+  <object id="18" x="0" y="95" width="7" height="267"/>
+  <object id="19" x="2" y="353" width="190" height="9"/>
+  <object id="20" x="223" y="354" width="155" height="6"/>
+  <object id="24" x="376.5" y="92.5" width="7" height="269"/>
+ </objectgroup>
+</map>
